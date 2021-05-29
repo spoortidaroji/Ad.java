@@ -1,10 +1,10 @@
 package database;
- import java.sql.*;
+import java.sql.*;
 public class JdbcAccess 
 { 
     public static void main(String[] args) 
     {     
-        String databaseURL = "jdbc:ucanaccess://e://User//SPOORTI//eclipse-workspace// database//Employee.accdb";   
+        String databaseURL = "jdbc:ucanaccess://e://User//SPOORTI//eclipse-workspace//database//Employee.accdb";   
         try
         {     
           Class.forNAme("net.ucanaccess.jdbc.ucanaccessDrives"); 
